@@ -1,0 +1,74 @@
+ /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+} 
+
+.table{ /*display: table;*/ }
+.tablerow { /*display: table-row;*/margin-top:10px; }
+.tablecell{ /*display: table-cell;margin:10px*/}
+
+.modal-content .caption {  color: #00589C; font-weight: bold;}
+.modal-content .content {  margin-left:10px}
+
+.modal-content .logo {float:right;width:120px;margin-right:20px;margin-bottom:20px;margin-left:20px}
+
+.modal-content ul {padding-left:15px;}
+.modal-content .table {padding-left:10px}
+
+.hyphenate {
+ -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.breakall{
+	word-break: break-all;
+}
+
+
+.resultproductclass {
+background: #e1e2e3;
+//color: #ffffff;
+padding:1px 5px 1px 5px;
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  -khtml-border-radius: 10px; /* Konqueror */
+  border-radius: 10px; /* CSS3 */  
+  font-size: 80%
+}
+.producttypelinks {
+margin:7px
+}
